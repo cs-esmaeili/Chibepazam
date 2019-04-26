@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/updatehayebadi"
+            android:icon="@drawable/ayande"
+            android:title="نسخه های بعدی چگونه خواهد بود؟" />
+        <item
+            android:id="@+id/darbareyema"
+            android:icon="@drawable/ic_import_export_black_24dp"
+            android:title="ارتباط با ما" />
+
+    </group>
+
+
+
+</menu>

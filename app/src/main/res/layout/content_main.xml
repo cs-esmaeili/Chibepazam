@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="javad.esmaeili.chibepazam.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="#ffffff"
+    android:gravity="center">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="220dip"
+                    android:id="@+id/img"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="پیشنهاد غذا"
+                    android:id="@+id/textView2"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="24dip" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="4dip"
+                    android:id="@+id/ly1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dip">
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView3"
+                            android:layout_weight="0.25"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/mahi" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:layout_weight="0.30">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="پیشنهاد برای یک وعده"
+                                android:id="@+id/btn1"
+                                android:layout_gravity="center"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:textColor="#000000"
+                                android:textSize="20dip"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView4"
+                        android:src="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="6dip"
+                    android:layout_marginRight="4dip"
+                    android:id="@+id/ly2">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip" >
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView5"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/pizaaand"
+                            android:layout_weight="0.25" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:layout_weight="0.30">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="پیشنهاد برای یک روز"
+                                android:id="@+id/btn2"
+                                android:layout_gravity="center"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:textColor="#000000"
+                                android:textSize="20dip"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView6"
+                        android:src="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="6dip"
+                    android:layout_marginRight="4dip"
+                    android:id="@+id/ly3">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip" >
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView7"
+                            android:layout_weight="0.25"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/sofi" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:layout_weight="0.30">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="انتخاب مواد برای پیشنهاد"
+                                android:id="@+id/btn3"
+                                android:layout_gravity="center"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:textColor="#000000"
+                                android:textSize="20dip"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView8"
+                        android:src="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="6dip"
+                    android:layout_marginRight="4dip"
+                    android:id="@+id/ly4">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip" >
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView9"
+                            android:layout_weight="0.25"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/suop" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingLeft="5dip"
+                            android:layout_weight="0.30">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:text="لیست غذا                 "
+                                android:id="@+id/btn4"
+                                android:layout_gravity="center"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:textColor="#000000"
+                                android:textSize="20dip"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

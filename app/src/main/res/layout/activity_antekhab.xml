@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<include layout="@layout/toolbar_second" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:id="@+id/scrollView2"
+        android:layout_weight=".90">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip" android:layout_weight="1"
+                android:layout_marginRight="8dip">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="0.5">
+
+
+                    <CheckBox
+                        android:id="@+id/chk1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="گوشت"
+                        android:checked="false"
+                        android:textColor="#000000" />
+
+
+                    <CheckBox
+                        android:id="@+id/chk2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:layout_gravity="center_horizontal"
+                        android:checked="false"
+                        android:textColor="#000000"
+                        android:text="نخود" />
+
+                    <CheckBox
+                        android:id="@+id/chk3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="لوبیا"
+                        android:layout_gravity="center_horizontal"
+                        android:checked="false"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="پیاز"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="سیب زمینی"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="برنج"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="عدس"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="زعفران"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="رشته"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="سبزی"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="سوسیس"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="کالباس"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="لیمو"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="ماهی"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="تمر"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk16"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="آلو"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk17"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="ذرت"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk18"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="آلوچه"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="میگو"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk20"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="اسفناج"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk21"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="بامیه"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" android:layout_width="3dip"/>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="0.5">
+
+                    <CheckBox
+                        android:id="@+id/chk23"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="گردو"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk24"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="مرغ"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="رب انار"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk26"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="لپه"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk27"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="شوید"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk28"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="باقلا"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk29"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="بوقلمون"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk30"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="ماست"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk31"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="سیر"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk32"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="سیب"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk33"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="ماکارونی"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk34"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="کلم"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk35"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="قارچ"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk36"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="نارنج"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk37"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="تخم مرغ"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk38"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="خیارشور"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk39"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="آلو سیاه"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk40"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="آلبالو"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk41"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="کرفس"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk42"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="آلوسیاه"
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/chk22"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dip"
+                        android:text="زرشک"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnr"
+            android:layout_width="0dip"
+            android:layout_height="75dip"
+            android:layout_weight="0.5"
+            android:text="پاک کردن انتخاب ها " />
+
+
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="0dip"
+            android:layout_height="75dip"
+            android:layout_weight="0.5"
+            android:text="پیدا کردن غذا" />
+
+    </LinearLayout>
+
+</LinearLayout>

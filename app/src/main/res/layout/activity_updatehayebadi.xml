@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".darbareyema">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar_second" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="شما درآپدیت های بعدی خواهید دید 1.	قسمت آنلاین برای نظر دهی برای هر غذا 2.	اضافه شدن غذاهای بیشتر 3.	اضافه شدن قسمت دسرها 4.	اضافه شدن قسمت کیک ها 5.	اضافه شدن قسمت غذاهای رژیمی 6.	اضافه شدن قسمت غذاهای فوری 7.	اضافه شدن قسمت ارسال غذا توسط کاربر 8.	اضاقه شدن قسمت تنظیمات برای شخصی سازی برنامه "
+            android:id="@+id/textView"
+            android:gravity="right"
+            android:layout_marginRight="5dip" />
+
+    </LinearLayout>
+
+</RelativeLayout>
